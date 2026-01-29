@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar for dark theme */
+::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+::-webkit-scrollbar-track {
+	background: #0f172a;
+}
+::-webkit-scrollbar-thumb {
+	background: #334155;
+	border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+	background: #475569;
+}
+.material-symbols-outlined {
+	font-variation-settings:
+		"FILL" 1,
+		"wght" 400,
+		"GRAD" 0,
+		"opsz" 24;
+}
